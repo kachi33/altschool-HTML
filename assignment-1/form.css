@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    font-family: "Architects Daughter", serif;
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+.header {
+    background-color: #fefbf7;
+}
+
+.signup {
+    /* background-color: #fff; */
+    /* max-height: 100vh; */
+    width: 100%;
+}
+
+form {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+form label:last-of-type {
+    grid-column: span 2;
+
+}
+
+input, select, button {
+    padding: 10px;
+    /* margin: 5px 0; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+
+}
+
+button {
+    width: 100%;
+    background-color: #0367f2;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
