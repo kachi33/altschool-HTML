@@ -34,30 +34,35 @@
       </section>
         
         <section class="picture">
-          <h2>Responsive Picture</h2>
           <picture>
-            <source srcset="images/me-small.jpg" media="(max-width: 600px)">
-            <source srcset="images/me-medium.jpg" media="(max-width: 1200px)">
-            <source srcset="images/me-large.jpg">
-            <img src="images/me-default.jpg" alt="A picture of me">
+            <source srcset="images/small.jpg" media="(max-width: 600px)">
+            <source srcset="images/medium.jpg" media="(max-width: 1200px)">
+            <source srcset="images/large.jpg">
+            <img src="assets/default.jpg" alt="A picture of some samurai" width="600px">
           </picture>
         </section>
-    
-        <section class="video">
-          <h2>Additional Media</h2>
-          <p>Watch this inspiring video about my journey:</p>
-          <video controls width="500">
-            <source src="videos/journey.mp4" type="video/mp4">
-            <source src="videos/journey.webm" type="video/webm">
-            Your browser does not support the video tag.
-          </video>
-    
+        <div class="picture-text">
+          <p>picturess  believe in the power of technology to transform lives and create a better future. Through constant learning and innovation, I strive to be a catalyst for positive change in the world.</p>
+        </div>
+        
+        <div class="audio-text">
+          <p>I believe in the power of technology to transform lives and create a better future. Through constant learning and innovation, I strive to be a catalyst for positive change in the world.</p>
           <p>Listen to my favorite motivational podcast:</p>
           <audio controls>
             <source src="audio/motivation.mp3" type="audio/mpeg">
             <source src="audio/motivation.ogg" type="audio/ogg">
             Your browser does not support the audio element.
           </audio>
+        </div>
+
+        <section class="video">
+          <video controls width="500">
+            <caption>Watch this inspiring video</caption>
+            <source src="videos/journey.mp4" type="video/mp4">
+            <source src="videos/journey.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+    
         </section>
   
         <footer>

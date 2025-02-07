@@ -54,6 +54,7 @@ main {
 }
 
 #nav_panel nav ul li a {
+  display: block;
   color: #0a0e06;
   text-decoration: none;
 }

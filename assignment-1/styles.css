@@ -58,11 +58,12 @@
     
   }
   
-  #nav_panel nav ul li a{
+  #nav_panel nav ul li a {
+    display: block;
     color: #0a0e06;
     text-decoration: none;
   }
-  
+    
   #nav_panel nav ul li:hover{
     background-color: #606C3880;
     transform: translateY(-2px);
