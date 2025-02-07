@@ -79,9 +79,8 @@
     padding-left: 100px;
     padding-right: 50px;
     display: grid;
-    /* grid-template-rows: 140px 160px 160px auto;  */
-    grid-template-rows: 140px 100px; /* Keep first row 140px, last row auto */
-    grid-template-columns: 400px; /* Split middle rows into two columns */
+    grid-template-rows: 140px 100px; 
+    grid-template-columns: 400px; 
     gap: 20px;
     color: #4F4F4F;
     
@@ -139,7 +138,7 @@
     
   } 
   #biography{
-    grid-column: span 2; /* Make first row span full width */
+    grid-column: span 2; 
   } 
   
   #biography p,
@@ -174,7 +173,7 @@
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    grid-column: span 2; /* Make first row span full width */
+    grid-column: span 2;
   }
   
   button {
@@ -205,14 +204,3 @@
     font-weight: bold;
   }
   
-  /* Responsive Design */
-  @media (max-width: 600px) {
-    header, main {
-      width: 95%;
-      padding: 20px;
-    }
-  
-    header {
-      padding: 30px;
-    }
-  }
